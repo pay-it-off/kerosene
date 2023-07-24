@@ -44,7 +44,7 @@ defmodule Kerosene.Mixfile do
   defp deps do
     [
       {:phoenix_html, "~> 3.0"},
-      {:plug, "~> 1.4"},
+      {:plug, "~> 1.14"},
       {:ecto, "~> 3.0"},
       {:ecto_sql, "~> 3.0"},
       {:phoenix_ecto, "~> 4.4"},
