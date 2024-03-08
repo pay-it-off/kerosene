@@ -1,5 +1,5 @@
 defmodule Kerosene.JSON do
-  use Phoenix.HTML
+  use PhoenixHTMLHelpers
   import Kerosene.Paginator, only: [build_options: 1]
 
   @moduledoc """

@@ -1,5 +1,5 @@
 defmodule Kerosene.Paginator do
-  use Phoenix.HTML
+  use PhoenixHTMLHelpers
 
   @default [
     window: 3,
