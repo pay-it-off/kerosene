@@ -1,5 +1,5 @@
 defmodule Kerosene.HTML.Simple do
-  use Phoenix.HTML
+  use PhoenixHTMLHelpers
 
   def generate_links(page_list, additional_class) do
     content_tag :nav, class: build_html_class(additional_class) do

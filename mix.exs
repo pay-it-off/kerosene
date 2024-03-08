@@ -53,7 +53,8 @@ defmodule Kerosene.Mixfile do
       # Docs dependencies
       {:earmark, "~> 1.0", only: :docs},
       {:ex_doc, "~> 0.11", only: :docs},
-      {:inch_ex, "~> 2.0", only: :docs}
+      {:inch_ex, "~> 2.0", only: :docs},
+      {:phoenix_html_helpers, "~> 1.0"}
     ]
   end
 
